@@ -1,0 +1,3 @@
+#! /usr/bin/env nix-shell
+#! nix-shell -i bash -p "ruby_3_1.withPackages (ps: with ps; [(rake.override {version = \"13.0.6\"; pname= \"rake\"; source.sha256 = \"15whn7p9nrkxangbs9hh75q585yfn66lv0v2mhj6q6dl6x8bzr2w\";})])"
+ruby generate.rb

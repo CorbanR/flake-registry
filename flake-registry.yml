@@ -1,0 +1,10 @@
+---
+flakes:
+  - from:
+      id: "gimme-aws-creds"
+      type: "indirect"
+    to:
+      owner: "CorbanR"
+      repo: "gimme-aws-creds"
+      tyupe: "github"
+version: 2
